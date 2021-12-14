@@ -843,7 +843,6 @@ public class SubsamplingScaleImageView extends View {
                         float dx = Math.abs(event.getX() - vCenterStart.x);
                         float dy = Math.abs(event.getY() - vCenterStart.y);
 
-                        //On the Samsung S6 long click event does not work, because the dx > 5 usually true
                         float offset = density * 5;
                         if (dx > offset || dy > offset || isPanning) {
                             consumed = true;
