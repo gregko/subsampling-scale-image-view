@@ -5,6 +5,7 @@ archivesBaseName = 'subsampling-scale-image-view'
 version = '3.10.0'
 
 android {
+    namespace "com.davemorrissey.labs.subscaleview"
     compileSdkVersion USE_SDK_VERSION
 
     defaultConfig {
