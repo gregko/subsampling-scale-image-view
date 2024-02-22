@@ -1,7 +1,6 @@
 apply plugin: 'com.android.library'
 
 group = 'com.davemorrissey.labs'
-archivesBaseName = 'subsampling-scale-image-view'
 version = '3.10.0'
 
 android {
@@ -16,7 +15,7 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.annotation:annotation:1.6.0'
+    implementation 'androidx.annotation:annotation:1.7.1'
     implementation "androidx.exifinterface:exifinterface:$exifinterface_ver"
 }
 
